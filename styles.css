@@ -25,9 +25,22 @@ h2 {
   color: #ffffff;
 }
 
+.button-rectangle {
+  width:200px;
+  height:100px;
+  background: #ffffff;
+  border-radius: 25px;
+}
+
+.quote-rectangle {
+  width:200px;
+  height:100px;
+  background: #ffffff;
+  border-radius: 25px;
+}
 /* ~~~~~~~~~~~~~~ CONTROLS ~~~~~~~~~~~~~~~~ */
 
-div {
+nav {
   font-family: 'Quicksand', sans-serif;
   color: #000000
 }
