@@ -94,3 +94,7 @@ form {
   font-size: 100%;
   border: none;
 }
+
+.hidden {
+  display: none;
+}
