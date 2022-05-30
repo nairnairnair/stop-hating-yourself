@@ -37,12 +37,12 @@ function quoteSplicer(event) {
           if(affirmations[i] === hatedQuote) {
              affirmations.splice(i, 1);
           }
-      } return messageOutput.innerText = 'Affirmation Vanquished'
+      } return messageOutput.innerText = '💥 AFFIRMATION VANQUISHED 💥'
     } else if (document.getElementById('mantra').checked) {
       for (var i = 0; i <= mantras.length ; i++) {
           if(mantras[i] === hatedQuote) {
              mantras.splice(i, 1);
           }
-      } return messageOutput.innerText = 'Mantra Obliterated'
+      } return messageOutput.innerText = '💥 MANTRA OBLITERATED 💥'
     };
 };
